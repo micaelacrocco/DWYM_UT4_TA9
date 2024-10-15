@@ -1,0 +1,66 @@
+.counter {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight:inherit;
+    color: #333;
+}
+
+.btn-decrement {
+    background-color: #ff4d4d;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: transform 0.2s; /* Transiciones para el hover */
+    margin: 10px;
+}
+
+.btn-decrement:hover {
+    background-color: #dc4343;
+    transform: scale(1.05); 
+}
+
+.btn-reset {
+    background-color: #4db5ff;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: transform 0.2s; /* Transiciones para el hover */
+    margin: 10px;
+}
+
+.btn-reset:hover {
+    background-color: #3c8bc4;
+    transform: scale(1.05); 
+}
+
+.btn-increment { 
+    background-color: #6eff72;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: transform 0.2s; /* Transiciones para el hover */
+    margin: 10px;
+}
+
+.btn-increment:hover {
+    background-color: #4CAF50;
+    transform: scale(1.05); 
+}
